@@ -1,0 +1,53 @@
+petdtore.octoperf.com
+
+https://petstore.octoperf.com/actions/Catalog.action
+
+
+Load
+Stress
+Recorder
+Login
+Correlation Concept
+
+
+
+
+Scenario: Launch application ---->Add username----->Add password------>Login------->Logout
+
+
+https://demo.guru99.com/test/newtours/
+
+-------------------------------------------
+
+Corelation
+API
+HTML reports
+Password parameterization
+
+testuser123
+admin123
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

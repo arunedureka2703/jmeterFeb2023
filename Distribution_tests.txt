@@ -1,0 +1,18 @@
+Distribution Arrangement
+
+- Jmeter to be added in same folder structure in master and slave
+- master and slave should be part of same subnet
+- All proxies and firewall should be closed
+
+- Start the jmeter.server in your master and slave machine
+- Authentication  in master machine
+    (i) create-rmi-keystore.bat to generate key and key file will be generated rmi_keystore.jks
+	(ii)  Copy rmi_keystore.jks file and copy them in slave machine /bin folder jmeter
+	
+- Go to the jmeter.properties file of master and add i.p address of slave machines
+- Add ip address of slave machines in following section of jmeter.properties
+remote_hosts=192.168.1.9,192.168.1.8,192.168.1.7
+
+
+
+jmeter -n -r  ".jmx" -l "c:
